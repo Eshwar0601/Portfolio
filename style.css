@@ -78,17 +78,59 @@
 .is-white {
   color: #fff;
 }
-
+.is-long {
+  min-height: 550px;
+}
 /* skills */
 
 figure .is-skill-icon {
-  margin-top: 40px;
+  /* margin-top: 40px; */
   width: 60px;
   height: 58px;
 }
 
-/* @media only screen and (max-width: 1000px) {
-  figure {
-    padding: 50px;
+.content .columns .border-right {
+  border-bottom: 0px solid #e6ecf8;
+  border-right: 1px solid #e6ecf8;
+}
+.content .columns .column {
+  padding: 60px 35px;
+}
+
+.section-overlap {
+  position: relative;
+}
+
+#skills {
+  width: 100vw;
+  margin: auto;
+  position: absolute;
+  top: 350px;
+  z-index: 2;
+}
+
+/* Mobile Screen */
+
+@media only screen and (max-width: 1000px) {
+  #avatar {
+    margin: 1rem 0;
+    width: 200px;
   }
-} */
+  .navbar {
+    padding: 1rem 0;
+    display: flex;
+    min-height: 3rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #main-title {
+    margin: 2 rem 0;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+  }
+  #sub-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+}
