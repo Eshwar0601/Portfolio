@@ -1,0 +1,94 @@
+/* logo font */
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+/* title font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+/* subtitle font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navbar */
+.navbar {
+  padding: 1.2rem 0;
+  display: flex;
+  min-height: 3.25rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button.is-primary.is-outlined {
+  border: 2px solid #7510f7;
+  background-color: transparent;
+  border-color: #7510f7;
+  color: #7510f7;
+}
+.button.is-primary.is-outlined:hover {
+  background-color: #7510f7;
+  border-color: #7510f7;
+  color: white;
+  transition: background-color 0.4s ease;
+}
+
+.logo {
+  color: #7510f7;
+  font-family: "Monoton", cursive;
+  font-size: 2rem;
+}
+#main-title {
+  margin: 2.5 rem 0;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+#sub-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.hero-body {
+  height: 100vh;
+}
+.center-hr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#avatar {
+  margin: 2rem 0;
+  width: 250px;
+}
+
+.is-bottom {
+  margin-bottom: -0.4rem;
+  width: 100%;
+  height: 420px;
+}
+
+/* section 2 */
+.section.is-primary {
+  background-color: #7510f7;
+  color: #fff;
+}
+
+.is-white {
+  color: #fff;
+}
+
+/* skills */
+
+figure .is-skill-icon {
+  margin-top: 40px;
+  width: 60px;
+  height: 58px;
+}
+
+/* @media only screen and (max-width: 1000px) {
+  figure {
+    padding: 50px;
+  }
+} */
